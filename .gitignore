@@ -1,0 +1,19 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# data and model artefacts
+data/
+*.csv
+*.parquet
+*.pt
+*.pth
+*.ckpt
+
+# keep the thesis datasets
+!freMTPL2freq_transformed.csv
+!freMTPL2sev_transformed.csv
